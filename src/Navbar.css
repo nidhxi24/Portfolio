@@ -1,0 +1,16 @@
+.nav-main {
+    display: flex;
+    height: 6vh;
+    align-items: center;
+    color: rgb(25, 47, 56);
+    background-color: white;
+    padding: 0 20px; /* Add padding to the left and right */
+    justify-content: space-between;
+}
+
+.left-icon, .right-icon {
+    height: 100%;
+    display: flex; /* Add display flex */
+    align-items: center; /* Center the icons vertically */
+    gap: 10px; /* Add some space between the icons */
+}

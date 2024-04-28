@@ -1,0 +1,49 @@
+.project-main {
+    background-color: floralwhite;
+    color: black;
+    display: flex;
+    /* justify-content: center; */
+    height: 100vh;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.project-heading {
+    height: 5vh;
+    font-size: larger;
+    margin-left: 10%;
+    /* text-align:  ; */
+}
+
+.all-project {
+    display: grid;
+    height: 100%;
+    margin: 5%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    /* align-items: center; */
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color:darkslategray;
+    color: aliceblue;
+    padding: 5%;
+    border-radius: 4%;
+}
+
+.box-heading{
+    width: 100%;
+    height: 15%;
+}
+
+.box-img{
+    align-self: center;
+    height: 70%;
+}
+
+.box-content{
+    height: 5%;
+    
+}

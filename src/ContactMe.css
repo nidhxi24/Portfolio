@@ -1,0 +1,58 @@
+.contact-main {
+    background-color: darkslategray;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.contact{
+    height: 80%;
+    width: 70%;
+    align-self: center;
+}
+
+.contact-heading{
+    height: 10%;
+    font-size:x-large;
+    font-weight: bolder;
+    
+}
+
+.form{
+    height: 90%;
+    color: aliceblue;
+    padding: 2%;
+}
+
+.form-div{
+    height: 15%;
+    width: 75%;
+    padding: 1%;
+}
+label{
+    display: block;
+    padding-bottom: 2%;
+}
+
+input{
+    width: 100%;
+    padding: 2%;
+    border:  1px solid #ccc;
+    border-radius: 5px;
+    /* font-size: ; */
+
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:aliceblue;
+    color: darkslategray;
+    font-size: 16px;
+    cursor: pointer;
+}
