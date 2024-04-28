@@ -7,24 +7,15 @@ import Project from './Projects';
 function Navbar() {
     return (
         <div className="nav-main">
-            <div className='left-icon'>
-                <a href="https://www.linkedin.com/"><FaLinkedin /></a>
-                <a href="https://github.com/"><FaGithub /></a>
-            </div>
+            <div className='nav-box'>
 
-            <div className='right-icon'>
-
-                {/* <Routes>
-
-                    <Route path = "/project" element = {<Project/>}></Route>
-
-                    <Route path = "/contact" element = {<ContactMe/>}></Route> */}
-                <a href="/projects">Projects</a>
+                <div>Home</div>
+                <div>Projects</div>
+                <div>Skills</div>
+                <div>Experience</div>
+                <div>Education</div>
+                <div>Contact</div>
                 
-                <a href="/contact">Contact Me</a>
-
-                {/* </Routes> */}
-
             </div>
         </div>
     );

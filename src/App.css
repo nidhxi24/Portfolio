@@ -9,5 +9,6 @@
     display: block;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
+    background-color: white;
+    /* color: aliceblue; */
   }

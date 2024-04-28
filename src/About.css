@@ -1,16 +1,28 @@
+/* .MAin{
+    display: flex;
+    f
+} */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    color: white;
+    background-color: rgb(25, 47, 56);
+}
 .about-main {
     display: flex;
     align-items: center;
-    height: 40vh;
+    /* height: 40vh; */
     justify-content: center;
     /* background-color: darkslategray; */
-    color: white;
-    background-color: rgb(25, 47, 56);
+    /* color: white; */
+    /* background-color: rgb(25, 47, 56); */
 }
 
 .profile {
     display: flex;
-    height: 30vh;
+    height: 28vh;
 }
 
 .profile img {
