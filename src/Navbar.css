@@ -1,22 +1,27 @@
 .nav-main {
     display: flex;
-    height: 6vh;
-
+    height: 5vh;
+    width: 35%;
     background-color: white;
     color: black;
     align-items: center;
     justify-content: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 1%;
+    margin: 0 auto;
+    margin-top: 1.5em;
     border-radius: 1.75em;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.nav-box{
-    display: flex;
-    justify-content: space-between;
+.nav-box a{
+    padding: 0 1em;
+    /* padding: 1em 1em; */
+    text-decoration: none;
+    color: inherit;
 
+}
 
+.nav-box a:hover{
+    background-color: rgb(237, 241, 242);
+    border-radius: 25%;
 }
 

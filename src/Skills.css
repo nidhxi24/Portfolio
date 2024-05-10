@@ -1,0 +1,18 @@
+.skill-main{
+    display: flex;
+    height: 60vh;
+
+}
+
+.skill-heading{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.skill-icon{
+
+}

@@ -4,7 +4,7 @@ function Project() {
     return (
         <div className='project-main'>
             <div className='project-heading'>
-                Featured Projects
+                Projects
             </div>
 
             <div className='all-project'>
