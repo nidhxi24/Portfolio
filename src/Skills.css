@@ -1,6 +1,6 @@
 .skill-main{
     display: flex;
-    height: 60vh;
+    height: 50vh;
 
 }
 
@@ -13,6 +13,6 @@
     font-size: 2em;
 }
 
-.skill-icon{
+/* .skill-icon{
 
-}
+} */

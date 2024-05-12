@@ -49,6 +49,7 @@
 .about-button{
     display: flex;
     flex-direction: column;
+    /* justify-content: ; */
     align-items: center;
     margin: 5%;
     margin-left: 0;

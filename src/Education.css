@@ -1,0 +1,63 @@
+.edu-main {
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.edu-heading {
+    font-size: 2em;
+    font-weight:bold;
+
+    margin-top:  8%;
+    margin-bottom: 4%;
+}
+
+.edu-box-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+
+}
+
+.edu-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(240, 241, 242);
+
+    border-radius: 1em;
+    padding: 1%;
+    width: 30%;
+    height: 100%;
+    box-shadow: .5em 1em 1.5em rgba(0, 0, 0, 0.5); 
+    /* height: 20%; */
+    /* margin-top: 1%; */
+    /* margin-bottom: 4%; */
+    /* box-shadow: .5em 1em 1.5em rgba(0, 0, 0, 0.5);  Adding box shadow */
+    /* transition: transform 0.2s, box-shadow 0.2s; Add transition for smoother effect */
+}
+
+.edu-box-heading {
+    font-size: 1.5rem;
+    /* margin-bottom: 5px; */
+    margin-bottom: 4%;
+    align-self: baseline;
+    /* align-items: flex-start; */
+}
+
+/* .box-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+} */
+
+.edu-box-content {
+    font-size: 1rem;
+    text-align:justify;
+}
