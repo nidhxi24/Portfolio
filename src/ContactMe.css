@@ -1,42 +1,59 @@
 .contact-main {
-    background-color: darkslategray;
+    background-color: rgb(25, 47, 56);
     color: aliceblue;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    height: 60vh;
     /* align-items: center; */
     flex-direction: column;
 }
 
 .contact{
-    height: 80%;
-    width: 70%;
+    height: 100%;
+    width: 40%;
     align-self: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .contact-heading{
-    height: 10%;
+    /* height: 10%; */
+    margin-top: 10%;
+    justify-content: center;
     font-size:x-large;
     font-weight: bolder;
+    margin-bottom: 3%;
     
 }
 
 .form{
-    height: 90%;
-    color: aliceblue;
-    padding: 2%;
+    height: auto;
+    width: 75%;
+    padding: 1%;
+    /* color: aliceblue;
+    padding: 5%; */
 }
 
 .form-div{
-    height: 15%;
+    height: 30%;
     width: 75%;
     padding: 1%;
 }
 label{
     display: block;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
+
+textarea {
+    height: 7em;
+    width: 100%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
 input{
     width: 100%;
     padding: 2%;
@@ -44,15 +61,22 @@ input{
     border-radius: 5px;
     /* font-size: ; */
 
-}
+ } 
 
 button{
     width: 100%;
-    padding: 10px;
+    padding: 3%;
     border: none;
-    border-radius: 5px;
-    background-color:aliceblue;
-    color: darkslategray;
-    font-size: 16px;
+    border-radius: 0.5em;
+    background-color:white;
+    color: rgb(25, 47, 56);
+    font-size: 1em;
     cursor: pointer;
+}
+
+.contact-heading-sub{
+    margin-top: 1%;
+    font-size: medium;
+    font-weight: 400;
+
 }

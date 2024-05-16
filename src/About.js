@@ -4,6 +4,26 @@ import Navbar from './Navbar';
 import { BrowserRouter as Router } from 'react-router-dom';
 import profile from './img.jpeg';
 function About() {
+    const downloadResume = () => {
+        // Replace 'resume.pdf' with the actual filename of your resume
+        const resumeUrl = process.env.PUBLIC_URL + '/Resume.pdf';
+
+        // Create a temporary link element
+        const link = document.createElement('a');
+        link.href = resumeUrl;
+
+        // Set the download attribute with the desired filename
+        link.setAttribute('download', 'nidhi_rajpurohit_resume.pdf');
+
+        // Append the link to the body
+        document.body.appendChild(link);
+
+        // Trigger a click event to start the download
+        link.click();
+
+        // Clean up
+        document.body.removeChild(link);
+    };
     return (
 
         <div className='main'>
@@ -44,7 +64,7 @@ function About() {
                             </div>
                         </div>
 
-                        <button className='button-with-icon' onClick={() => window.open('https://github.com/nidhxi24', '_blank')}>
+                        <button className='button-with-icon' onClick={downloadResume}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
                                 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />

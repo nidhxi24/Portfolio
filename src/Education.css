@@ -2,9 +2,10 @@
     background-color: white;
     color: black;
     display: flex;
-    height: 50vh;
+    height: auto;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 5%;
 }
 
 .edu-heading {
@@ -17,10 +18,12 @@
 
 .edu-box-main {
     display: flex;
+    height: 50vh;
     justify-content: center;
     width: 100%;
     align-items: center;
     height: 100%;
+    margin-bottom: 4%;
 
 }
 
@@ -32,9 +35,10 @@
     background-color: rgb(240, 241, 242);
 
     border-radius: 1em;
-    padding: 1%;
+    padding: 3%;
     width: 30%;
-    height: 100%;
+    height: auto;
+    font-weight: 370;
     box-shadow: .5em 1em 1.5em rgba(0, 0, 0, 0.5); 
     /* height: 20%; */
     /* margin-top: 1%; */
@@ -44,9 +48,9 @@
 }
 
 .edu-box-heading {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     /* margin-bottom: 5px; */
-    margin-bottom: 4%;
+    /* margin-bottom: 5%; */
     align-self: baseline;
     /* align-items: flex-start; */
 }
@@ -60,4 +64,10 @@
 .edu-box-content {
     font-size: 1rem;
     text-align:justify;
+}
+
+.edu-box-heading-sub{
+    font-size: 1em;
+    font-weight: 350;
+    margin-bottom: 10%;
 }

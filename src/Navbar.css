@@ -1,7 +1,7 @@
 .nav-main {
     display: flex;
     height: 5vh;
-    width: 35%;
+    /* width: 35%; */
     background-color: white;
     color: black;
     align-items: center;
