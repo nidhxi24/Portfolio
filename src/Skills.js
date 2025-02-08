@@ -1,27 +1,99 @@
 import React from "react";
-import javascript from './logo/javascript_logo.png';
-import html from './logo/html_logo.png';
-import css from './logo/css_logo.jpeg';
-import python from './logo/python_logo.jpeg';
-import cpp from './logo/cpp_logo.png';
-import tp from './logo/typescript_logo.png';
-import git from './logo/git_logo.png';
-import react from './logo/react_logo.png';
-import node from './logo/nodejs_logo.png';
-import php from './logo/php_logo.png';
-import laravel from './logo/laravel_logo.png';
-import scss from './logo/scss_logo.png';
-import linux from './logo/linux_logo.png';
-import sql from './logo/mysql_logo.png';
+import javascript from "./logo/javascript_logo.png";
+import html from "./logo/html_logo.png";
+import css from "./logo/css_logo.jpeg";
+import python from "./logo/python_logo.jpeg";
+import cpp from "./logo/cpp_logo.png";
+import tp from "./logo/typescript_logo.png";
+import git from "./logo/git_logo.png";
+import react from "./logo/react_logo.png";
+import node from "./logo/nodejs_logo.png";
+import php from "./logo/php_logo.png";
+import laravel from "./logo/laravel_logo.png";
+import scss from "./logo/scss_logo.png";
+import linux from "./logo/linux_logo.png";
+import sql from "./logo/mysql_logo.png";
 // import figma from './logo/figma_logo.png';
 
-import './Skills.css';
+import "./Skills.css";
 function Skills() {
-    return (
-        <div className="skill-main">
-            <div className="skill-heading">Skills</div>
+  return (
+    <div className="skill-main">
+      <div className="skill-heading">Skills</div>
 
-            <ul className="skill-icons">
+      <ul className="skill-icons">
+        <li className="skill-icon-items">
+            JavaScript
+          {/* <img src={javascript} alt="js icon" /> */}
+        </li>
+
+        <li className="skill-icon-items">
+            Cpp
+          {/* <img src={html} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+            Python
+          {/* <img src={css} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+            React
+          {/* <img src={python} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+            Machine learning
+          {/* <img src={cpp} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+            MySql
+          {/* <img src={tp} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+            Oracle DB
+          {/* <img src={git} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+        Oracle DB
+          {/* <img src={react} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+        Oracle DB
+          {/* <img src={node} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+        Oracle DB
+          {/* <img src={php} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+        Oracle DB
+          {/* <img src={laravel} alt="js icon"></img> */}
+        </li>
+
+        <li className="skill-icon-items">
+        Oracle DB
+          {/* <img src={scss} alt="js icon"></img> */}
+        </li>
+{/* 
+        <li className="skill-icon-items">
+        Oracle DB
+
+        </li> */}
+
+        {/* <li className="skill-icon-items">
+        Oracle DB
+
+        </li> */}
+      </ul>
+
+      {/* <ul className="skill-icons">
 
           
                 <li className="skill-icon-items">
@@ -82,9 +154,9 @@ function Skills() {
                     <img src ={sql} alt="js icon" ></img>
                 </li>
 
-            </ul> 
+            </ul>  */}
 
-            {/* <div className="skill-icons">
+      {/* <div className="skill-icons">
 
           
                 <div className="skill-one-icon">
@@ -146,7 +218,7 @@ function Skills() {
                 </div>
 
             </div> */}
-        </div>
-    );
+    </div>
+  );
 }
 export default Skills;

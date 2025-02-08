@@ -1,99 +1,92 @@
-.main{
+.exp-main {
+    /* background-color: rgb(25, 47, 56); */
+    color: black;
     display: flex;
-    flex-direction: column;
-    height: 60vh;
-    color: white;
-    background-color: rgb(25, 47, 56);
-}
-.about-main {
-    display: flex;
+    height: auto;
     align-items: center;
-    justify-content: center;
-}
-
-.profile {
-    display: flex;
-    height: 28vh;
-}
-
-.profile img {
-    display: block;
-    border-radius: 5%;
-}
-
-.about {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 50vh;
-    width: 75vh;
+    height: 70vh;
+    /* margin-bottom: 4%; */
 }
 
-.intro {
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-    margin-left: 0;
-    align-items: left;
-    font-size: large;
-    
-}
-
-.name {
-
-    font-size: xx-large;;
+.exp-heading {
+    font-size: 2em;
     font-weight:bold;
-    margin-bottom: 0.75em;
+    color: white;
+   height: 20%;
+    /* margin-top:  8%; */
+    /* margin-bottom: 4%; */
+
 }
 
-.about-button{
+.exp-box-main {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    align-items: center;
+    height: auto;
+
+}
+
+.exp-box{
     display: flex;
     flex-direction: column;
-    /* justify-content: ; */
-    /* align-items: center; */
-    margin: 5%;
-    margin-left: 0;
-    gap: 0.5em;    
-}
-
-.about-button-icon{
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-}
-.button-icon{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(25, 47, 56);
-    align-items: center;
-    color: white;
-    cursor: pointer;
-}
-
-.button-icon hover{
-    color: rgb(25, 47, 56);
-}
-
-.button-with-icon{
-    margin-top: 3%;
-    display: flex;
-    width: 31%;
-    background-color: rgb(25, 47, 56);
     align-items: center;
 
-    color: white;
-    border: 0.1em solid white;
-    cursor: pointer;
+    background-color: rgb(240, 241, 242);
+    
+    border-radius: 1em;
+    padding: 3%;
+    width: 30%;
+    height: 100%;
 
+    box-shadow: .5em 1em 1.5em rgba(0, 0, 0, 0.5); 
+    font-weight: 370;
+    /* font-size: 1em; */
 }
 
-.button-with-icon svg {
-    margin-right: 5%; 
+/* .box:hover {
+    transform: none; 
+    box-shadow: none;
+    cursor: default; 
+} */
+
+.exp-box-heading {
+    font-size: 1.4rem;
+    /* margin-bottom: 5px; */
+    /* justify-content: left; */
+    align-self: baseline;
+    /* align-items: flex-start; */
 }
 
-.button-icon:hover, .button-with-icon:hover {
-    background-color: rgb(35, 57, 66); /* Slightly lighter color on hover */
-    color: #d3d3d3; /* Light grey color on hover */
-    border-color: #d3d3d3; /* Light grey border color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Box shadow for depth */
+/* .box-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+} */
+
+.exp-box-content {
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-align:justify;
+}
+
+.exp-box-heading-sub{
+    font-size: 1em;
+    font-weight: 350;
+    margin-bottom: 10%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+.about-content h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #728394;
 }

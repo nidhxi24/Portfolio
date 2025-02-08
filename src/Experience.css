@@ -1,16 +1,17 @@
 .exp-main {
-    background-color: white;
+    /* background-color: rgb(25, 47, 56); */
     color: black;
     display: flex;
     height: auto;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 4%;
+    /* margin-bottom: 4%; */
 }
 
 .exp-heading {
     font-size: 2em;
     font-weight:bold;
+    color: white;
    
     margin-top:  8%;
     margin-bottom: 4%;
