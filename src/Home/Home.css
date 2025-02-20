@@ -1,0 +1,96 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+.home-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 42%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  margin-left: 0;
+  align-items: left;
+  font-size: large;
+}
+
+.name {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 0.75em;
+}
+
+.home-button {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  margin-left: 0;
+  gap: 0.5em;
+}
+
+.home-button-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.button-icon {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(46, 45, 43);
+  align-items: center;
+  color: grey;
+  cursor: pointer;
+}
+
+.button-icon hover {
+  color: rgb(25, 47, 56);
+}
+
+.button-with-icon {
+  margin-top: 2%;
+  display: flex;
+  width: 31%;
+  background-color: rgb(46, 45, 43);
+  align-items: center;
+  color: grey;
+  border: 0.1em solid grey;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.button-with-icon svg {
+  margin-right: 5%;
+}
+
+.profile {
+  display: flex;
+  height: 36vh;
+}
+
+.profile img {
+  display: block;
+  border-radius: 5%;
+}
+
+.button-icon:hover,
+.button-with-icon:hover {
+  background-color: rgb(46, 45, 43);
+  color: #d3d3d3;
+  border-color: #d3d3d3;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}

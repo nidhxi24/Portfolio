@@ -1,0 +1,49 @@
+.edu-main {
+  color: black;
+  display: flex;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.edu-heading {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.edu-box-main {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 4%;
+}
+
+.vertical-timeline-element-title{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.vertical-timeline-element-subtitle{
+    color: rgb(126, 136, 144);
+    font-weight: 350;
+    font-size: 1.2rem;
+}
+
+.vertical-timeline-element-content{
+    color: rgb(116, 128, 138);
+    font-weight: 350;
+    font-size: 1rem;
+}
+
+.vertical-timeline-element--work p{
+  color: rgb(116, 128, 138);
+  font-weight: 350;
+  font-size: 1rem;
+}

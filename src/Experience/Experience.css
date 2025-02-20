@@ -1,0 +1,29 @@
+.exp-main {
+  color: black;
+  display: flex;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.exp-heading {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+.exp-box-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: auto;
+}
+
+.vertical-timeline-element--work p{
+  color: rgb(116, 128, 138);
+  font-weight: 350;
+  font-size: 1rem;
+}
