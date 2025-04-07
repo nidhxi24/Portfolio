@@ -8,7 +8,7 @@ function About() {
 
       <div className="about-content-boby">
         <div className="about-img-container">
-          <img src={profile} className="about-img"></img>
+          <img src={profile} alt="profile" className="about-img"></img>
         </div>
         <div className="about-content">
           <br />
