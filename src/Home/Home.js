@@ -16,7 +16,7 @@ function Home() {
     // Append the link to the body
     document.body.appendChild(link);
 
-    // Trigger a click event to start the download
+     // Trigger a click event to start the download
     link.click();
 
     // Clean up
@@ -74,8 +74,7 @@ function Home() {
                 className="button-icon"
                 onClick={() =>
                   window.open(
-                    "https://linkedin.com/in/nidhi-rajpurohit-09731a21b/",
-                    "_blank"
+                    "mailto:nidhi.rajpurohit@example.com", "_blank",
                   )
                 }
               >

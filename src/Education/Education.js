@@ -18,17 +18,16 @@ function Education() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(52, 58, 64)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2011 - present"
+            date="2020 - 2024"
             iconStyle={{ background: "rgb(5, 99, 187)", color: "#fff" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+            B. Tech (CSE)
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h4 className="vertical-timeline-element-subtitle">Jodhpur Institute of Engineering and Technologies</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Overall CGPA: 8.88
             </p>
           </VerticalTimelineElement>
 
