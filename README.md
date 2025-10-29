@@ -3,7 +3,7 @@
 This is my personal portfolio website showcasing my projects, skills, and contact information.  
 It is built with **React** and styled using **TailwindCSS**.  
 
-🔗 **Live Demo:** [View Portfolio](https://nidhirajp.netlify.app/)  
+🔗 **Live Demo:** [View Portfolio](https://rajp-nidhi.vercel.app/)  
 
 ---
 
