@@ -25,23 +25,28 @@ function Experience() {
               Software Developer
             </h4>
             <p>
-              Developed various tenant UI screens for a
-              key project, enhancing user interface and experience using
-              Javascript and modern web technologies.
+              Contribute to the development of various tenant UI screens for a
+              key project, enhancing user experience and reducing support
+              queries by 15%.
             </p>
             <p>
-              Designed mutiple dynamic and browser compatible pages using HTML,
-              CSS, Javascript (React, Redux)
-            </p>
-            <p>Integrated RESTfull API on Frontend</p>
-            <p>
-              Developed dynamic components using JSON configuration to enhance
-              UI flexibility and maintainability.
+              Design and deliver interactive, browser-compatible pages using
+              React and Redux, resulting in a 20% faster load time across
+              applications.
             </p>
             <p>
-              Designing and implementing dynamic user interface and components,
-              leveraging Nx framework within a monorepo architecture,
-              empphasizing modular and scalable codebase management
+              Integrate RESTful API on the frontend for real-time data exchange,
+              reducing data refresh delays by 40%.
+            </p>
+            <p>
+              Engineer multiple reusable UI components using JSON configuration
+              to enhance flexibility and maintainability, reducing code
+              duplication by 25%.
+            </p>
+            <p>
+              Architect and deploy scalable UI components and user interfaces,
+              leveraging Nx framework within a monorepo architecture, improving
+              scalability and reducing build time by 30%.
             </p>
           </VerticalTimelineElement>
 
@@ -56,11 +61,19 @@ function Experience() {
             <h3 className="vertical-timeline-element-title">SoftTech Engr.</h3>
             <h4 className="vertical-timeline-element-subtitle">Internship</h4>
             <p>
-            Developed and maintained responsive websites using HTML, CSS, and JavaScript, ensuring compatibility across
-            multiple browsers and devices.
+              Built and maintained responsive websites using HTML, CSS, and
+              JavaScript, ensuring compatibility across various browsers and
+              devices.
             </p>
-            <p>Assisted in debugging and troubleshooting technical issues to improve website performance and user experience.</p>
-            <p>Collaborated with senior developers to implement new features and enhance existing functionalities.</p>
+            <p>
+              Identified and resolved performance bottlenecks, boosting website
+              load speed by 20% and improving user experience metrics.
+            </p>
+            <p>
+              Acquired practical experience with debugging tools, version
+              control (e.g., Git), and code reviews in a collaborative
+              development environment.
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

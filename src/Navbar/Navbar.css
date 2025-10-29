@@ -57,7 +57,9 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #0563bb;
+    color: grey;
+    background-color: #fff;
+    /* background-color: #0563bb; */
     width: 47px;
     height: 47px;
     border-radius: 50%;
@@ -72,7 +74,7 @@
 
 .nav-menu a i {
     font-size: 20px;
-    color: white;
+    /* color: white; */
     position: relative;
     z-index: 1;
 }
@@ -80,7 +82,7 @@
 .nav-menu a span {
     opacity: 0;
     transform: translateX(-10px);
-    color: white;
+    /* color: white; */
     transition: all 0.3s;
     position: relative;
     z-index: 1;
@@ -92,22 +94,28 @@
     transform: translateX(0);
 }
 
-.nav-menu .active{
-    color: #fff;
+/* Active state styling */
+.nav-menu a.active {
     background-color: #0563bb;
-}
-
-.nav-menu .active span{
     color: #fff;
 }
 
-.nav-menu a i {
-    font-size: 20px;
-    margin-right: 8px;
-} 
+.nav-menu a.active::before {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.nav-menu a.active i {
+    color: #fff;
+}
+
+.nav-menu a.active span {
+    color: #fff;
+    opacity: 1;
+    transform: translateX(0);
+}
 
 .nav-box{
     display: flex;
     justify-content: center;
 }
-

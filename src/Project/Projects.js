@@ -20,15 +20,16 @@ function Project() {
             icon={<CodeIcon />}
           >
             <h3 className="vertical-timeline-element-title">Portfolio</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              <b>Tech: </b>React, JavaScript, HTML, CSS
+            </h4>
             <p>
-              Developed a personal portfolio website using ReactJS, JavaScript,
-              HTML, CSS, and vari- ous libraries to showcase my projects and
-              skills.
+              Created a personal portfolio website using ReactJS, HTML, and CSS
+              to showcase projects and skills.
             </p>
             <p>
-              Integrated responsive design for optimal viewing across various
-              devices.
+              Applied responsive design principles for optimal viewing across
+              devices and screen sizes.
             </p>
             <p>
               <button
@@ -52,27 +53,26 @@ function Project() {
             <h3 className="vertical-timeline-element-title">
               Lemon Restro Website
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              <b>Tech:</b> React, Node.js, Firebase, .NET
+            </h4>
             <p>
-              Developed a fully functional restaurant website using React,
-              Node.js.
+            Implemented secure authentication using Firebase Auth with Google, Apple, and Facebook OAuth integration.
             </p>
             <p>
-              Integrated Firebase Authentication for secure login using Google,
-              Apple, and Facebook.
+            Integrated frontend with a .NET backend API for live order management and dynamic content updates, ensuring a seamless
+            user experience.
             </p>
             <p>
-              Implemented Nodemailer for email notifications and order
-              confirmations.
+            Automated communication workflows using Nodemailer for instant email confirmations.
             </p>
             <p>
-              Built API integrations with a .NET backend for handling dynamic
-              data
+            Optimized performance and enhanced scalability through modular component design and API-driven architecture.
             </p>
-            <p>
+            {/* <p>
               Added key features such as online reservations, dynamic menu
               display, and a customer review section.
-            </p>
+            </p> */}
 
             <p>
               <button
@@ -97,7 +97,7 @@ function Project() {
             icon={<CodeIcon />}
           >
             <h3 className="vertical-timeline-element-title">2048 game</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h4 className="vertical-timeline-element-subtitle"><b>Tech:</b> Python, tkinter</h4>
             <p>
               It’s a python based game project, players have to swipe the
               numbered tiles using arrow keys of the keyboard and combining the

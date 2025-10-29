@@ -4,7 +4,7 @@ import profile from '../assests/img.jpeg'
 function Home() {
   const downloadResume = () => {
     // Replace 'resume.pdf' with the actual filename of your resume
-    const resumeUrl = process.env.PUBLIC_URL + "/Resume.pdf";
+    const resumeUrl = process.env.PUBLIC_URL + "Nidhi_Resume__ .pdf";
 
     // Create a temporary link element
     const link = document.createElement("a");

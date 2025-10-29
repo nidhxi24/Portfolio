@@ -22,12 +22,24 @@ function Education() {
             iconStyle={{ background: "rgb(5, 99, 187)", color: "#fff" }}
             icon={<SchoolIcon />}
           >
-            <h3 className="vertical-timeline-element-title">
-            B. Tech (CSE)
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Jodhpur Institute of Engineering and Technologies</h4>
+            <h3 className="vertical-timeline-element-title">B. Tech (CSE)</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Jodhpur Institute of Engineering and Technologies
+            </h4>
+            <p><b>Overall CGPA: </b> 8.9</p>
             <p>
-              Overall CGPA: 8.88
+              <b>Computer Science:- </b> Data Structures and Algorithms, Machine
+              Learning, Object-Oriented Programming, Database Management System,
+              Web development, Data analysis, Design and Analysis of Algorithms,
+              Operating System, Android Development, Computer Organization and
+              Architecture, Discrete Structures, System Programming, Digital
+              Logic and Design, Computer Networks.
+            </p>
+
+            <p>
+              <b>Mathematics:- </b> Linear Algebra and Optimization, Calculus,
+              Differential Equations, Numerical Analysis, Statistics and
+              Probability Theory
             </p>
           </VerticalTimelineElement>
 
