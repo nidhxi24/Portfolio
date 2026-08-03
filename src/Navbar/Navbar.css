@@ -119,3 +119,86 @@
     display: flex;
     justify-content: center;
 }
+
+/* Tablet: shrink the active/hover pill (icon + label) so its full expanded
+   width stays inside the reserved content-boby gutter instead of floating
+   on top of the page text next to it */
+@media (max-width: 900px) {
+  .nav-menu a {
+    min-width: unset;
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+  .nav-menu a i {
+    font-size: 18px;
+  }
+  .nav-menu a span {
+    margin-left: 8px;
+  }
+}
+
+/* Mobile: collapse the fixed sidebar into a bottom icon bar so it never
+   overlaps page content and stays usable with a thumb */
+@media (max-width: 768px) {
+  .navbar {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: rgb(33, 33, 33);
+    overflow: visible;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-main {
+    padding: 0;
+    width: 100%;
+  }
+
+  .nav-main ul {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-main li {
+    margin: 6px 0;
+  }
+
+  .nav-menu a {
+    flex-direction: column;
+    min-width: unset;
+    padding: 6px 8px;
+    border-radius: 8px;
+  }
+
+  .nav-menu a::before {
+    display: none;
+  }
+
+  .nav-menu a i {
+    font-size: 22px;
+  }
+
+  .nav-menu a span {
+    opacity: 1;
+    transform: none;
+    font-size: 10px;
+    margin-left: 0;
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+
+  .nav-menu a:hover span,
+  .nav-menu a:hover::before {
+    opacity: 1;
+  }
+
+  .nav-menu a.active {
+    border-radius: 8px;
+  }
+}

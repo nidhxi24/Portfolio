@@ -33,12 +33,12 @@ function About() {
           <div className="about-content-rows">
             <div className="about-content-row">
               <div className="about-content-row-column-one">
-                <i class="bx bx-chevron-right" className="content-row-head"></i>
+                <i className="bx bx-chevron-right content-row-head"></i>
                 <b>Phone: </b>
                 <span>7878230852</span>
               </div>
               <div className="about-content-row-column-two">
-                <i class="bx bx-chevron-right" className="content-row-head"></i>
+                <i className="bx bx-chevron-right content-row-head"></i>
                 <b>City:</b>
                 <span>Pune</span>
               </div>
@@ -46,11 +46,11 @@ function About() {
 
             <div className="about-content-row">
               <div className="about-content-row-column-two">
-                <i class="bx bx-chevron-right" className="content-row-head"></i>
+                <i className="bx bx-chevron-right content-row-head"></i>
                 <b>Degree: </b> <span> B.Tech (Computer Science Engr.)</span>
               </div>
               <div className="about-content-row-column-two">
-                <i class="bx bx-chevron-right" className="content-row-head"></i>
+                <i className="bx bx-chevron-right content-row-head"></i>
                 <b>Email:</b>
                 <span className="about-email">rajp.nidhi@gmail.com</span>
               </div>

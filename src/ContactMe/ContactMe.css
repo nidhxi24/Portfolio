@@ -3,8 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: auto;
+  min-height: 50vh;
   flex-direction: column;
+  padding: 3rem 1rem;
 }
 
 .contact {
@@ -21,50 +23,127 @@
   color: white;
   margin-top: 5%;
   margin-bottom: 4%;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0.6rem;
+}
+
+/* small accent underline so the heading doesn't just float on its own */
+.contact-heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 3px;
+  border-radius: 2px;
+  background: #0563bb;
 }
 
 .form {
-  height: 40vh;
-  width: 80%;
-  padding: 1%;
+  height: auto;
+  width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
-.form input {
+.form > form {
+  color: rgb(180, 190, 200);
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.form > form b {
+  color: #4ea1ff;
+}
+
+.form input,
+.form textarea {
   display: block;
   width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  border: none;
-  margin-bottom: 10px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 14px;
   background: #343a40;
   color: #fff;
-  transition: all 0.5s ease;
+  font-family: inherit;
+  font-size: 0.95em;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #0563bb;
+  box-shadow: 0 0 0 3px rgba(5, 99, 187, 0.25);
 }
 
 .form textarea {
   height: 150px;
   resize: none;
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  border: none;
-  margin-bottom: 10px;
-  background: #343a40;
-  color: #fff;
-  transition: all 0.5s ease;
 }
 
 .form button {
   display: block;
   width: 100%;
   background: #0563bb;
-  border-radius: 4px;
-  padding: 12px 12px;
+  border-radius: 6px;
+  padding: 13px 12px;
   border: none;
   color: #fff;
   font-weight: 700;
+  letter-spacing: 0.03em;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.5s ease;
+  transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease;
   cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form button:hover {
+  background: #0651a0;
+  box-shadow: 0 4px 14px rgba(5, 99, 187, 0.4);
+}
+
+.form button:active {
+  transform: translateY(1px);
+}
+
+.error {
+  color: #ff6b6b;
+  margin: -8px 0 12px 0;
+  font-size: 0.85em;
+}
+
+@media (max-width: 900px) {
+  .contact {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    width: 90%;
+  }
+  .form {
+    padding: 1.5rem 1.25rem;
+  }
+  .contact-heading {
+    font-size: 1.6em;
+  }
+  .form input,
+  .form textarea {
+    font-size: 16px; /* iOS Safari zooms in on focus if inputs are smaller than 16px */
+  }
 }

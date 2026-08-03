@@ -10,12 +10,12 @@ import About from './About/About'
 function MainComp() {
     return (
         <>
-            <div id="home"><Home /></div>
-            <div id="about"><About/></div>
-            <div id="experience"><Experience /></div>
-            <div id="projects"><Projects /></div>
-            <div id="skills"><Skills /></div>
-            <div id="education"><Education /></div>
+            <Home />
+            <About />
+            <Experience />
+            <Projects />
+            <Skills />
+            <Education />
             <div id="contact"><ContactMe /></div>
         </>
     );

@@ -2,13 +2,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh !important;
+  height: auto !important;
   color: white;
+  width: 100%;
+  /* !important here is a temporary safety net - this rule has been
+     overridden by a leftover old `height: 100vh` elsewhere in past
+     tests. Once confirmed there's only ONE `.main` block in this file,
+     the !important flags can be removed. */
 }
 .home-main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .home {
@@ -46,6 +54,7 @@
   display: flex;
   flex-direction: row;
   gap: 1em;
+  flex-wrap: wrap;
 }
 
 .button-icon {
@@ -62,15 +71,22 @@
 }
 
 .button-with-icon {
+  /* Was width:31% - on wider screens that's narrower than the icon + label
+     actually need, so the text overflowed past the button's own border.
+     fit-content sizes the button to its content instead, so it can never
+     be too small for what's inside it, at any screen size. */
   margin-top: 2%;
-  display: flex;
-  width: 31%;
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
   background-color: rgb(46, 45, 43);
   align-items: center;
+  justify-content: center;
   color: grey;
   border: 0.1em solid grey;
   cursor: pointer;
-  padding: 0.5em;
+  padding: 0.75em 1.5em;
+  white-space: nowrap;
 }
 
 .button-with-icon svg {
@@ -80,10 +96,15 @@
 .profile {
   display: flex;
   height: 36vh;
+  max-width: 100%;
 }
 
 .profile img {
   display: block;
+  max-width: 100%;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
   border-radius: 5%;
 }
 
@@ -93,4 +114,64 @@
   color: #d3d3d3;
   border-color: #d3d3d3;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .home {
+    width: 60%;
+  }
+}
+
+/* Mobile: stack the text block above the photo, center everything,
+   and switch fixed-percentage widths to fluid ones */
+@media (max-width: 768px) {
+  .main {
+    height: auto;
+    min-height: 100vh;
+    padding: 3rem 1.25rem;
+  }
+  .home-main {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .home {
+    width: 100%;
+    height: auto;
+  }
+  .intro {
+    align-items: center;
+    margin: 4% 0;
+    text-align: center;
+  }
+  .name {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+  }
+  .home-button {
+    align-items: center;
+    margin: 4% 0;
+  }
+  .home-button-icon {
+    justify-content: center;
+  }
+  .profile {
+    height: auto;
+    width: 55%;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+  }
+  .profile img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .name {
+    font-size: 1.7em;
+  }
+  .profile {
+    width: 70%;
+  }
 }

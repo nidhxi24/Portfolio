@@ -1,10 +1,13 @@
 .project-main {
     color: black;
     display: flex;
-    height: 165vh;
+    height: auto;
+    min-height: auto;
     margin-top: 5rem;
+    margin-bottom: 2rem;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .project-heading {
@@ -22,7 +25,15 @@
     gap: 4%;
     width: 100%;
     align-items: center;
-    height: 80%;
+    height: auto;
+}
+
+/* Fallback spacing for Safari < 14.1, which doesn't support `gap` on
+   flex containers - keeps children from touching if gap is unsupported */
+@supports not (gap: 1px) {
+  .all-project > * + * {
+    margin-top: 2rem;
+  }
 }
 
 .box{
@@ -68,4 +79,16 @@
     background: rgb(5, 99, 187);
     border: none;
     cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  @media (max-width: 768px) {
+    .box {
+      width: 90%;
+      height: auto;
+    }
+    .project-heading {
+      font-size: 1.6em;
+    }
   }

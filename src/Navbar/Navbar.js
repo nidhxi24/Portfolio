@@ -39,6 +39,7 @@ function Navbar() {
               to="home" 
               smooth={true} 
               duration={700}
+              activeClass=""
               className={activeSection === "home" ? "active" : ""}
             >
               <i className="bx bx-home"></i>
@@ -51,6 +52,7 @@ function Navbar() {
               to="about" 
               smooth={true} 
               duration={700}
+              activeClass=""
               className={activeSection === "about" ? "active" : ""}
             >
               <i className="bx bx-user"></i>
@@ -63,6 +65,7 @@ function Navbar() {
               to="experience" 
               smooth={true} 
               duration={700}
+              activeClass=""
               className={activeSection === "experience" ? "active" : ""}
             >
               <i className="bx bxs-briefcase"></i>
@@ -75,6 +78,7 @@ function Navbar() {
               to="projects" 
               smooth={true} 
               duration={700}
+              activeClass=""
               className={activeSection === "projects" ? "active" : ""}
             >
               <i className="bx bx-code"></i>
@@ -87,6 +91,7 @@ function Navbar() {
               to="skills" 
               smooth={true} 
               duration={700}
+              activeClass=""
               className={activeSection === "skills" ? "active" : ""}
             >
               <i className="bx bx-star"></i>
@@ -105,6 +110,7 @@ function Navbar() {
               to="education" 
               smooth={true} 
               duration={700}
+              activeClass=""
               className={activeSection === "education" ? "active" : ""}
             >
               <i className="bx bxs-graduation"></i>
@@ -117,4 +123,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar;  
